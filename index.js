@@ -1,8 +1,8 @@
 // require your server and launch it
 const dotenv = require("dotenv").config();
 const server = require("./api/server");
-const cors = require("cors");
 const port = process.env.PORT || 9000;
+const path = require("path");
 
 server.use(cors());
 
